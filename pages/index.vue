@@ -129,6 +129,7 @@
             <a
               href="http://www.the-buyer.net/insight/majestic-new-parcels-of-wine-initiative-shows-it-has-its-buying-mojo-back/"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/thebuyer.png"
                 alt="The Buyer"
@@ -140,6 +141,7 @@
             <a
               href="https://www.retail-week.com/people/-my-retail-life-richard-weaver-ecommerce-director-majestic-wine/5047412.article?authent=1"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/retail-week.svg"
                 alt="Retail Week"
@@ -151,6 +153,7 @@
             <a
               href="https://harpers.co.uk/news/fullstory.php/aid/12596/Richard_Weaver,_Majestic_Wine.html"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/harpers.png"
                 alt="Harpers"
@@ -162,6 +165,7 @@
             <a
               href="https://internetretailing.net/industry/industry/internet-retailing-2011-interview-richard-weaver-majestic-wine-8277"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/internet-retailing.png"
                 width="250"
@@ -172,6 +176,7 @@
             <a
               href="https://www.essentialretail.com/big-interviews/524bd4e0b90a8-big-interview-majestic-wine-ecommerce-director-richard-weaver/"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/essential-retail.png"
                 width="250"
@@ -190,6 +195,7 @@
             <a
               href="https://www.iwcmerchantawards.com/uk/merchant-award-results-2018.html"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/iwc-2018.jpg"
                 alt="IWC High Street Chain of the Year 2018"
@@ -201,6 +207,7 @@
             <a
               href="https://drinksretailingawards.co.uk/thedrinksretailingawards2020/en/page/previous-winners"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/dra-2018.png"
                 alt="Drinks Retailing Awards"
@@ -212,6 +219,7 @@
             <a
               href="https://www.thedrinksbusiness.com/2018/05/the-drinks-business-awards-2018-the-winners/9/"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/db-2018.png"
                 alt="Drinks Business Awards"
@@ -224,6 +232,7 @@
             <a
               href="https://awards.retail-week.com/winners-2013"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/retail-week.svg"
                 width="250"
@@ -237,6 +246,7 @@
             <a
               href="https://econsultancy.com/econsultancy-announces-innovation-awards-2012-winners/"
               target="_blank"
+              rel="noopener"
               ><img
                 src="~assets/img/home/econsultancy.png"
                 width="250"
@@ -299,6 +309,8 @@
                     class="input"
                     type="text"
                     placeholder="Name"
+                    aria-label="Name"
+                    name="name"
                     required
                     minlength="5"
                     maxlength="64"
@@ -311,6 +323,8 @@
                     class="input"
                     type="text"
                     placeholder="Company"
+                    aria-label="Company"
+                    name="company"
                     maxlength="64"
                   />
                 </div>
@@ -321,6 +335,8 @@
                     class="input"
                     type="email"
                     placeholder="Email"
+                    aria-label="Email"
+                    name="email"
                     required
                     maxlength="64"
                   />
@@ -332,6 +348,8 @@
                     class="input"
                     type="text"
                     placeholder="Phone"
+                    aria-label="Phone"
+                    name="phone"
                     pattern="^\+?[\d\s()]{8,15}$"
                     maxlength="20"
                   />
@@ -343,6 +361,8 @@
                     class="textarea"
                     rows="5"
                     placeholder="How can I help?"
+                    aria-label="How can I help?"
+                    name="message"
                     required
                     minlength="5"
                   ></textarea>

@@ -2,7 +2,7 @@
   <div>
     <nav
       class="navbar is-fixed-top is-light"
-      role="naviagation"
+      role="navigation"
       aria-label="main navigation"
     >
       <div class="container">
@@ -64,16 +64,19 @@
             <a
               href="https://twitter.com/drinksight"
               class="icon is-large has-text-twitter"
+              aria-label="DrinkSight on Twitter"
               ><i class="fab fa-3x fa-twitter"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/richard-weaver-uk/"
               class="icon is-large has-text-linkedin"
+              aria-label="DrinkSight on LinkedIn"
               ><i class="fab fa-3x fa-linkedin"></i
             ></a>
             <a
               href="https://github.com/rixw"
               class="icon is-large has-text-github"
+              aria-label="DrinkSight on GitHub"
               ><i class="fab fa-3x fa-github"></i
             ></a>
           </div>

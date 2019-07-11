@@ -10,14 +10,14 @@
 @import "~bulma/sass/utilities/functions";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Overpass:400,700,900&display=swap');
 
-$purple: #60248b;
-$green: #3bac86;
+$purple: #423a66;
+$green: #137554;
 $turquoise: #3b99ac;
 $blue: #123c69;
 $cyan: #2f94ff;
 $orange: #ac863b;
 $red: #ac3b61;
-$primary: $turquoise;
+$primary: $green;
 $info: $blue;
 $success: $green;
 $danger: $red;
@@ -34,7 +34,7 @@ $title-size: $size-2;
 $weight-bold:900;
 $title-weight: $weight-bold;
 $navbar-background-color: $white;
-$link: $cyan;
+$link: $blue;
 $cyan-invert: findColorInvert($cyan);
 $link-invert: $cyan-invert;
 $link-visited: $cyan;

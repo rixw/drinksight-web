@@ -69,6 +69,7 @@ export default {
         src: 'https://kit.fontawesome.com/28f592ac2b.js'
       }
     ],
+    htmlAttrs: { lang: 'en' },
     bodyAttrs: {
       class: 'has-navbar-fixed-top'
     }
