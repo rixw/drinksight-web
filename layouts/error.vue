@@ -27,23 +27,23 @@ export default {
   props: ['error'],
   head: {
     title: 'An error has occurred: DrinkSight'
-  }
-},
-    meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: desc
-      },
-      {
-        hid: 'og:title',
-        property: 'og:title',
-        content: desc
-      },
-      {
-        hid: 'og:description',
-        property: 'og:description',
-        content: desc
-      }
-    ]
+  },
+  meta: [
+    {
+      hid: 'description',
+      name: 'description',
+      content: desc
+    },
+    {
+      hid: 'og:title',
+      property: 'og:title',
+      content: desc
+    },
+    {
+      hid: 'og:description',
+      property: 'og:description',
+      content: desc
+    }
+  ]
+}
 </script>
