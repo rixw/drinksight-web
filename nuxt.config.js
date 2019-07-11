@@ -95,7 +95,8 @@ export default {
     // 'nuxt-buefy',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-WM3KNVZ' }]
   ],
   /*
    ** Axios module configuration
