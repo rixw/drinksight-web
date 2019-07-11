@@ -46,32 +46,34 @@
           <div class="column is-4">
             <h4 class="title is-4">Retail &amp; Ecommerce</h4>
             <p class="block">
-              I help you maximise growth from store and online sales. I do this
-              strategically, advising on how and why to implement digital
-              transformation, and building a customer-centric framework for
-              products and services. I can also execute tactically, working with
-              your team to plan and deliver projects and campaigns.
+              I help you maximise sales growth from stores and online . I work
+              strategically, helping you implement digital transformation, and
+              building a customer-centric framework for measuring success. I can
+              also execute tactically, working with your team to deliver
+              projects and campaigns.
             </p>
             <!-- <a class="button is-primary" href="#">Read more</a> -->
           </div>
           <div class="column is-4">
             <h4 class="title is-4">Brand Development</h4>
             <p class="block">
-              Benefit from my insight and experience to advise spirits, wine,
-              beer and cider producers on product positioning. I'll channel
-              strategy, the right visuals and messaging, pricing, promotion and
-              marketing activations for the social media age.
+              I can advise spirits, wine, beer and cider producers on product
+              positioning in the modern retail market. I'll come up with a
+              channel strategy, advise on the right visuals and messaging, and
+              look at pricing, promotion and marketing activations for the
+              social media age.
             </p>
             <!-- <a class="button is-primary" href="#">Read more</a> -->
           </div>
           <div class="column is-4">
             <h4 class="title is-4">Price Intelligence</h4>
             <p class="block">
-              With access to daily streams of highly relevant data for drinks
-              SKUs from all the major UK drinks retailers, I can provide
-              customised analysis of competitive positioning, price
-              architecture, bespoke data feeds and strategic advice to retailers
-              and suppliers.
+              With access to daily streams of highly relevant data for
+              <abbr title="Beer, Wines and Spirits">BWS</abbr>
+              <abbr title="Stock-Keeping Units">SKUs</abbr> from all the major
+              UK drinks retailers, I can provide customised analysis of
+              competitive positioning, price architecture, bespoke data feeds
+              and strategic advice to retailers and suppliers.
             </p>
             <!-- <a class="button is-primary" href="#">Read more</a> -->
           </div>
@@ -86,12 +88,12 @@
           <div class="column is-4">
             <h4 class="title is-4">Drinks Specialism</h4>
             <p class="block">
-              With 20 years in the drinks trade I have a thorough understanding
-              of the wine, beer and spirits retail landscape and an established
-              network of contacts. As Trading Director for the UK's biggest
-              specialist wine merchant, I ran buying and merchandising for the
-              retail and B2B on trade operations turning over in excess of £300m
-              pa.
+              After 20 years in the drinks trade, I have a thorough
+              understanding of the wine, beer and spirits retail landscape and
+              an established network of contacts. As Trading Director for the
+              UK's biggest specialist wine merchant, I ran buying and
+              merchandising for the retail and B2B on-trade operations, turning
+              over in excess of &pound;300m pa.
             </p>
             <!-- <a class="button is-primary" href="#">Read more</a> -->
           </div>
@@ -102,7 +104,8 @@
               marketing. I oversaw the growth of the Majestic Wine online
               channel from scratch to £40m+ revenue, including multiple site and
               app builds. I have deep experience across digital marketing
-              channels including email, Search, PPC, affiliate, display and
+              channels including email, Search,
+              <abbr title="Pay-Per-Click">PPC</abbr>, affiliate, display and
               content.
             </p>
             <!-- <a class="button is-primary" href="#">Read more</a> -->
@@ -110,10 +113,11 @@
           <div class="column is-4">
             <h4 class="title is-4">Bespoke Data</h4>
             <p class="block">
-              I have developed my own web scraping technology to harvest not
+              I have developed my own web-scraping technology to harvest not
               just price but also promotion, marketing and availability data.
-              Layering BWS-specific taxonomies over the top means I can provide
-              highly customised views of product and price data.
+              Layering <abbr title="Beer, Wines and Spirits">BWS</abbr>-specific
+              taxonomies over the top means I can provide highly customised
+              views of product and price data.
             </p>
             <!-- <a class="button is-primary" href="#">Read more</a> -->
           </div>
@@ -199,7 +203,8 @@
                 src="~assets/img/home/iwc-2018.jpg"
                 alt="IWC High Street Chain of the Year 2018"
                 width="76"
-              /><br />WC High Street Chain of the Year 2018</a
+              /><br /><abbr title="International Wine Challenge">IWC</abbr> High
+              Street Chain of the Year 2018</a
             >
           </div>
           <div class="column">
