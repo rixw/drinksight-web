@@ -12,10 +12,10 @@
                 brand insight for the drinks trade
               </h1>
               <h2 class="has-text-white-bis is-size-5 is-size-6-mobile">
-                I am a retail and ecommerce specialist with over 20 years’
-                experience in senior roles in the drinks trade. I help drinks
-                businesses grow, implement digital transformation, and reach
-                customers in the modern retail environment.
+                I am a retail and ecommerce specialist with 20 years’ experience
+                in the UK drinks trade. I help drinks businesses grow, implement
+                digital transformation, and reach customers in the modern retail
+                environment.
                 <div id="hero-home-signature" class="as-text-white-bis">
                   <img
                     src="~assets/signature.png"
