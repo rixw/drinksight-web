@@ -86,18 +86,6 @@
   </div>
 </template>
 <script>
-// import { scrollBehaviour } from '~/lib/route-utils'
-// export default {
-//   mounted() {
-//     // Manually parse hashes / decide on scrollBehavior for initial page load (from SSR)
-//     if (this.$route.hash) {
-//       this.$nextTick(() => {
-//         // This could be configured to use a smooth scroll, etc.
-//         window.scrollTo(0, scrollBehavior(this.$route).y)
-//       })
-//     }
-//   }
-// }
 export default {
   mounted() {
     const $navbarBurgers = Array.prototype.slice.call(

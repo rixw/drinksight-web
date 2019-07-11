@@ -26,8 +26,7 @@
                 </div>
               </h2>
               <div class="buttons">
-                <a class="control button is-primary" href="#contact"
-                  >Contact me</a
+                <a class="control button is-light" href="#contact">Contact me</a
                 ><a class="control button is-light" href="#how-i-help"
                   >Read more</a
                 >
