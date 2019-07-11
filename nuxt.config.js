@@ -4,7 +4,8 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'DrinkSight: Retail, Ecommerce & Brand Insight for the Drinks Trade',
+    title:
+      'DrinkSight: Retail, Ecommerce & Brand Consultancy for the Drinks Trade',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,7 +13,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          "I am a retail and ecommerce specialist with over 20 years' experience in senior roles in the drinks trade. I help businesses grow, implement digital transformation, and reach cusatomers in the modern retail environment."
+          "I am a retail and ecommerce specialist consultant with over 20 years' experience in senior roles in the drinks trade. I help businesses grow, implement digital transformation, and reach customers in the modern retail environment."
       },
       { hid: 'og:title', property: 'og:title', content: 'DrinkSight' },
       { property: 'og:type', content: 'website' },
@@ -27,7 +28,7 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'Retail, ecommerce and brand insight for the drinks trade. Helping wine, beer and spirits companies with digital transformation.'
+          'Retail, ecommerce and brand consultancy for the drinks trade. Helping wine, beer and spirits companies with digital transformation.'
       },
       { property: 'twitter:card', content: 'DrinkSight' },
       { property: 'twitter:site', content: '@drinksight' },

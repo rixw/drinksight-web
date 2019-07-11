@@ -9,13 +9,13 @@
                 class="title is-spaced has-text-white-bis is-uppercase is-size-4-mobile"
               >
                 <span class="is-hidden">Drinksight: </span>Retail, ecommerce and
-                brand insight for the drinks trade
+                brand consultancy for the drinks trade
               </h1>
               <h2 class="has-text-white-bis is-size-5 is-size-6-mobile">
-                I am a retail and ecommerce specialist with 20 years’ experience
-                in the UK drinks trade. I help drinks businesses grow, implement
-                digital transformation, and reach customers in the modern retail
-                environment.
+                I am a retail and ecommerce specialist consultant with 20 years’
+                experience in the UK drinks trade. I help drinks businesses
+                grow, implement digital transformation, and reach customers in
+                the modern retail environment.
                 <div id="hero-home-signature" class="as-text-white-bis">
                   <img
                     src="~assets/signature.png"
@@ -46,7 +46,7 @@
           <div class="column is-4">
             <h4 class="title is-4">Retail &amp; Ecommerce</h4>
             <p class="block">
-              I help you maximise sales growth from stores and online . I work
+              I help you maximise sales growth from stores and online. I work
               strategically, helping you implement digital transformation, and
               building a customer-centric framework for measuring success. I can
               also execute tactically, working with your team to deliver
@@ -407,7 +407,8 @@
 export default {
   name: 'HomePage',
   head: {
-    title: 'DrinkSight: Retail, Ecommerce & Brand Insight for the Drinks Trade'
+    title:
+      'DrinkSight: Retail, Ecommerce & Brand Consultancy for the Drinks Trade'
   }
 }
 </script>
