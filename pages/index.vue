@@ -301,7 +301,23 @@
             </div>
           </div>
           <div class="column is-5 is-offset-1">
-            <form>
+            <form
+              name="contact"
+              method="POST"
+              action="/thanks"
+              data-netlify="true"
+              netlify-honeypot="honeypot"
+            >
+              <div class="field is-hidden">
+                <div class="control is-hidden">
+                  <input
+                    class="input"
+                    type="text"
+                    aria-label="Don’t fill this out if you're human"
+                    name="honeypot"
+                  />
+                </div>
+              </div>
               <div class="field">
                 <div class="control">
                   <input
@@ -386,8 +402,7 @@
 export default {
   name: 'HomePage',
   head: {
-    title:
-      'DrinkSight: Retail, Ecommerce &amp; Brand Insight for the Drinks Trade'
+    title: 'DrinkSight: Retail, Ecommerce & Brand Insight for the Drinks Trade'
   }
 }
 </script>

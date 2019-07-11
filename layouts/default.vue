@@ -108,6 +108,16 @@ export default {
         })
       })
     }
+  },
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://drinksight.com' + this.$route.path
+        }
+      ]
+    }
   }
 }
 </script>
