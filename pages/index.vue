@@ -408,7 +408,7 @@ export default {
   name: 'HomePage',
   head: {
     title:
-      'DrinkSight: Retail, Ecommerce & Brand Consultancy for the Drinks Trade'
+      'Retail, Ecommerce & Brand Consultancy for the Drinks Trade: DrinkSight'
   }
 }
 </script>

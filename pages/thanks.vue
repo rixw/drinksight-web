@@ -35,7 +35,7 @@ export default {
   // eslint-disable-next-line vue/require-prop-types
   props: ['error'],
   head: {
-    title: 'DrinkSight: thanks for contacting us!',
+    title: 'Thanks for contacting us: DrinkSight',
     meta: [
       {
         hid: 'description',

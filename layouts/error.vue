@@ -20,13 +20,30 @@
 </template>
 
 <script>
+const desc = 'An error has occurred: DrinkSight'
 export default {
   name: 'Error',
   // eslint-disable-next-line vue/require-prop-types
   props: ['error'],
   head: {
-    title:
-      'DrinkSight: Retail, Ecommerce &amp; Brand Insight for the Drinks Trade'
+    title: 'An error has occurred: DrinkSight'
   }
-}
+},
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: desc
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: desc
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: desc
+      }
+    ]
 </script>

@@ -5,7 +5,7 @@ export default {
    */
   head: {
     title:
-      'DrinkSight: Retail, Ecommerce & Brand Consultancy for the Drinks Trade',
+      'Retail, Ecommerce & Brand Consultancy for the Drinks Trade: DrinkSight',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
