@@ -13,7 +13,7 @@
             class="navbar-burger"
             role="button"
             aria-label="menu"
-            aria-expanded="false"
+            :aria-expanded="menuActive"
             data-target="navMenu"
             :class="{ 'is-active': menuActive }"
             @click="toggle"
