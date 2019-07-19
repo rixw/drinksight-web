@@ -40,6 +40,11 @@ export default {
     ],
     link: [
       {
+        rel: 'stylesheet',
+        href:
+          'https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Overpass:400,700,900&display=swap'
+      },
+      {
         rel: 'apple-touch-icon',
         sizes: '180x180',
         href: '/apple-touch-icon.png'
@@ -67,7 +72,6 @@ export default {
       },
       {
         rel: 'stylesheet',
-        type: 'text/css',
         href:
           'https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css'
       }
