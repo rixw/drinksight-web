@@ -115,6 +115,7 @@
 <script>
 export default {
   mounted() {
+    console.log('Mounted...')
     const $navbarBurgers = Array.prototype.slice.call(
       document.querySelectorAll('.navbar-burger'),
       0
