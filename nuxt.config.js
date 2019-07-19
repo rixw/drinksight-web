@@ -98,7 +98,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
     '@nuxtjs/sitemap',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-WM3KNVZ' }]
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-WM3KNVZ', pageTracking: true }]
   ],
   /*
    ** Axios module configuration
