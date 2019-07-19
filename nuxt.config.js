@@ -74,7 +74,12 @@ export default {
     ],
     script: [
       {
-        src: 'https://kit.fontawesome.com/28f592ac2b.js'
+        type: 'module',
+        src: 'https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js'
+      },
+      {
+        type: 'momodule',
+        src: 'https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js'
       }
     ],
     htmlAttrs: { lang: 'en' },
@@ -99,7 +104,7 @@ export default {
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    ['nuxt-buefy', { materialDesignIcons: false, defaultIconPack: 'fas' }],
+    ['nuxt-buefy', { materialDesignIcons: false }],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',

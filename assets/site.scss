@@ -52,6 +52,7 @@ $custom-colors: ( "twitter": ($twitter, $twitter-invert), "linkedin": ($linkedin
 
 // Import Bulma and Buefy styles
 @import "~bulma";
+@import "~buefy/src/scss/buefy";
 
 .button { text-transform: uppercase; font-family: $family-secondary; font-weight: $weight-bold; }
 #hero-home { 

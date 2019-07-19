@@ -11,7 +11,7 @@
           <div class="media">
             <div class="media-left">
               <figure class="icon is-medium">
-                <i class="fas fa-2x fa-phone"></i>
+                <ion-icon name="call" class="is-size-3"></ion-icon>
               </figure>
             </div>
             <div class="media-content">
@@ -23,14 +23,14 @@
           <div class="media">
             <div class="media-left">
               <figure class="icon is-medium">
-                <i class="fas fa-2x fa-envelope-open"></i>
+                <ion-icon name="mail" class="is-size-3"></ion-icon>
               </figure>
             </div>
             <div class="media-content">
               <div class="content is-size-4">
                 <p>
                   <a href="mailto:richard@drinksight.com"
-                    >richard@drinksight.com</a
+                    >richard@<wbr />drinksight.com</a
                   >
                 </p>
               </div>
@@ -39,7 +39,7 @@
           <div class="media">
             <div class="media-left">
               <figure class="icon is-medium">
-                <i class="fas fa-2x fa-map-marker-alt"></i>
+                <ion-icon name="pin" class="is-size-3"></ion-icon>
               </figure>
             </div>
             <div class="media-content">
@@ -56,7 +56,7 @@
           <div class="media">
             <div class="media-left">
               <figure class="icon is-medium has-text-twitter">
-                <i class="fab fa-2x fa-twitter"></i>
+                <ion-icon name="logo-twitter" class="is-size-3"></ion-icon>
               </figure>
             </div>
             <div class="media-content">
@@ -75,7 +75,7 @@
           <div class="media">
             <div class="media-left">
               <figure class="icon is-medium has-text-linkedin">
-                <i class="fab fa-2x fa-linkedin"></i>
+                <ion-icon name="logo-linkedin" class="is-size-3"></ion-icon>
               </figure>
             </div>
             <div class="media-content">
