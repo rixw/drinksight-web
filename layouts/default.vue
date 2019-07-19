@@ -24,7 +24,7 @@
         <div
           id="navMenu"
           class="navbar-menu"
-          :class="{ 'is-active': !isActive }"
+          :class="{ 'is-active': isActive }"
         >
           <div class="navbar-end">
             <nuxt-link to="/how-i-help" class="navbar-item"
@@ -132,7 +132,7 @@ export default {
   },
   data() {
     return {
-      isActive: true
+      isActive: false
     }
   }
 }
