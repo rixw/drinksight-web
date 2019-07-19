@@ -97,7 +97,7 @@
             background: '#123c69'
           },
           button: {
-            background: '#3bac86'
+            background: '#ac3b61'
           }
         },
         theme: 'edgeless',
