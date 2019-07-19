@@ -97,6 +97,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
+    '@nuxtjs/sitemap',
     ['@nuxtjs/google-tag-manager', { id: 'GTM-WM3KNVZ' }]
   ],
   /*
@@ -167,5 +168,10 @@ export default {
 
       return position
     }
+  },
+  sitemap: {
+    hostname: 'https://drinksight.com',
+    gzip: true,
+    exclude: ['/thanks']
   }
 }

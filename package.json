@@ -16,6 +16,7 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/google-tag-manager": "2.2.0",
+    "@nuxtjs/sitemap": "1.2.0",
     "@nuxtjs/style-resources": "0.1.2",
     "font-awesome": "4.7.0",
     "nuxt": "^2.0.0",
