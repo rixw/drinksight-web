@@ -15,11 +15,17 @@
             aria-label="menu"
             aria-expanded="false"
             data-target="navMenu"
+            :class="{ 'is-active': isActive }"
+            @click="isActive = !isActive"
             ><span aria-hidden="true"></span><span aria-hidden="true"></span
             ><span aria-hidden="true"></span
           ></a>
         </div>
-        <div id="navMenu" class="navbar-menu">
+        <div
+          id="navMenu"
+          class="navbar-menu"
+          :class="{ 'is-active': !isActive }"
+        >
           <div class="navbar-end">
             <nuxt-link to="/how-i-help" class="navbar-item"
               >How I Help</nuxt-link
@@ -114,29 +120,6 @@
 </template>
 <script>
 export default {
-  mounted() {
-    alert('Mounted')
-    const $navbarBurgers = Array.prototype.slice.call(
-      document.querySelectorAll('.navbar-burger'),
-      0
-    )
-
-    // Check if there are any navbar burgers
-    if ($navbarBurgers.length > 0) {
-      // Add a click event on each of them
-      $navbarBurgers.forEach((el) => {
-        el.addEventListener('click', () => {
-          // Get the target from the "data-target" attribute
-          const target = el.dataset.target
-          const $target = document.getElementById(target)
-
-          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-          el.classList.toggle('is-active')
-          $target.classList.toggle('is-active')
-        })
-      })
-    }
-  },
   head() {
     return {
       link: [
@@ -145,6 +128,11 @@ export default {
           href: 'https://drinksight.com' + this.$route.path
         }
       ]
+    }
+  },
+  data() {
+    return {
+      isActive: false
     }
   }
 }
