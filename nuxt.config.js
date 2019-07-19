@@ -64,6 +64,12 @@ export default {
         rel: 'mask-icon',
         color: '#ac3b61',
         href: '/safari-pinned-tab.svg'
+      },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href:
+          'https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css'
       }
     ],
     script: [
@@ -93,7 +99,7 @@ export default {
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy',
+    ['nuxt-buefy', { materialDesignIcons: false, defaultIconPack: 'fas' }],
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
@@ -101,8 +107,7 @@ export default {
     [
       '@nuxtjs/google-analytics',
       {
-        id: 'UA-143751727-1',
-        dev: true
+        id: 'UA-143751727-1'
       }
     ]
     //['@nuxtjs/google-tag-manager', { id: 'GTM-WM3KNVZ', pageTracking: false }]
@@ -123,9 +128,6 @@ export default {
   },
   router: {
     scrollBehavior: function(to, from, savedPosition) {
-      console.log('scrollBehavior...')
-      console.log(to)
-
       // if the returned position is falsy or an empty object,
       // will retain current scroll position.
       let position = false
@@ -137,7 +139,6 @@ export default {
           (r) => r.components.default.options.scrollToTop !== false
         )
       ) {
-        console.log('No children, can scroll to top, so scroll')
         // scroll to the top of the page
         position = { x: 0, y: 0 }
       } else if (
