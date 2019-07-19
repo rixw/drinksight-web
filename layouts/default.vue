@@ -21,17 +21,17 @@
         </div>
         <div id="navMenu" class="navbar-menu">
           <div class="navbar-end">
-            <nuxt-link to="/#how-i-help" class="navbar-item"
+            <nuxt-link to="/how-i-help" class="navbar-item"
               >How I Help</nuxt-link
             >
-            <nuxt-link to="/#why-me" class="navbar-item">Why Me?</nuxt-link>
+            <nuxt-link to="/why-me" class="navbar-item">Why Me?</nuxt-link>
             <a class="navbar-item" href="tel:+44--20-3603-3643"
               >020 3603 3643</a
             >
           </div>
           <div>
             <div class="navbar-item">
-              <nuxt-link to="/#contact" class="button is-primary"
+              <nuxt-link to="/contact" class="button is-primary"
                 >Get in touch</nuxt-link
               >
             </div>
@@ -64,18 +64,21 @@
             <a
               href="https://twitter.com/drinksight"
               class="icon is-large has-text-twitter"
+              target="_blank"
               aria-label="DrinkSight on Twitter"
               ><i class="fab fa-3x fa-twitter"></i
             ></a>
             <a
               href="https://www.linkedin.com/in/richard-weaver-uk/"
               class="icon is-large has-text-linkedin"
+              target="_blank"
               aria-label="DrinkSight on LinkedIn"
               ><i class="fab fa-3x fa-linkedin"></i
             ></a>
             <a
               href="https://github.com/rixw"
               class="icon is-large has-text-github"
+              target="_blank"
               aria-label="DrinkSight on GitHub"
               ><i class="fab fa-3x fa-github"></i
             ></a>

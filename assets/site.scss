@@ -65,3 +65,7 @@ $custom-colors: ( "twitter": ($twitter, $twitter-invert), "linkedin": ($linkedin
 .hero .buttons {
   margin-top:2em;
 }
+.is-gradient {  background: $blue;
+  background-image: url('~assets/background.png'), linear-gradient(105deg, rgba(18,60,105,1) 0%, rgba(18,60,105,1) 15%, rgba(172,59,97,1) 85%, rgba(172,59,97,1) 100%);
+}
+.content h1, .content h2, .content h3, .content h4 { color: $blue; font-family: $family-secondary; } 

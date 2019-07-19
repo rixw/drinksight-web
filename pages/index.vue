@@ -52,7 +52,11 @@
               also execute tactically, working with your team to deliver
               projects and campaigns.
             </p>
-            <!-- <a class="button is-primary" href="#">Read more</a> -->
+            <nuxt-link
+              class="button is-primary"
+              to="/how-i-help/retail-and-ecommerce"
+              >Read more</nuxt-link
+            >
           </div>
           <div class="column is-4">
             <h4 class="title is-4">Brand Development</h4>
@@ -63,7 +67,11 @@
               look at pricing, promotion and marketing activations for the
               social media age.
             </p>
-            <!-- <a class="button is-primary" href="#">Read more</a> -->
+            <nuxt-link
+              class="button is-primary"
+              to="/how-i-help/brand-development"
+              >Read more</nuxt-link
+            >
           </div>
           <div class="column is-4">
             <h4 class="title is-4">Price Intelligence</h4>
@@ -75,7 +83,11 @@
               competitive positioning, price architecture, bespoke data feeds
               and strategic advice to retailers and suppliers.
             </p>
-            <!-- <a class="button is-primary" href="#">Read more</a> -->
+            <nuxt-link
+              class="button is-primary"
+              to="/how-i-help/price-intelligence"
+              >Read more</nuxt-link
+            >
           </div>
         </div>
       </div>
@@ -95,7 +107,9 @@
               merchandising for the retail and B2B on-trade operations, turning
               over in excess of &pound;300m pa.
             </p>
-            <!-- <a class="button is-primary" href="#">Read more</a> -->
+            <nuxt-link class="button is-primary" to="/why-me/drinks-specialism"
+              >Read more</nuxt-link
+            >
           </div>
           <div class="column is-4">
             <h4 class="title is-4">Digital First</h4>
@@ -104,11 +118,13 @@
               marketing. I oversaw the growth of the Majestic Wine online
               channel from scratch to £40m+ revenue, including multiple site and
               app builds. I have deep experience across digital marketing
-              channels including email, Search,
+              channels including email, search,
               <abbr title="Pay-Per-Click">PPC</abbr>, affiliate, display and
               content.
             </p>
-            <!-- <a class="button is-primary" href="#">Read more</a> -->
+            <nuxt-link class="button is-primary" to="/why-me/digital-first"
+              >Read more</nuxt-link
+            >
           </div>
           <div class="column is-4">
             <h4 class="title is-4">Bespoke Data</h4>
@@ -119,149 +135,15 @@
               taxonomies over the top means I can provide highly customised
               views of product and price data.
             </p>
-            <!-- <a class="button is-primary" href="#">Read more</a> -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container has-text-centered">
-        <h2 class="title is-size-3 is-uppercase">In The Press</h2>
-        <div class="columns is-multiline">
-          <div class="column">
-            <a
-              href="http://www.the-buyer.net/insight/majestic-new-parcels-of-wine-initiative-shows-it-has-its-buying-mojo-back/"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/thebuyer.png"
-                alt="The Buyer"
-                width="250"
-                style="margin:17px 0;"
-            /></a>
-          </div>
-          <div class="column">
-            <a
-              href="https://www.retail-week.com/people/-my-retail-life-richard-weaver-ecommerce-director-majestic-wine/5047412.article?authent=1"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/retail-week.svg"
-                alt="Retail Week"
-                width="250"
-                style="margin:19px 0;"
-            /></a>
-          </div>
-          <div class="column">
-            <a
-              href="https://harpers.co.uk/news/fullstory.php/aid/12596/Richard_Weaver,_Majestic_Wine.html"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/harpers.png"
-                alt="Harpers"
-                width="250"
-                style="margin:15px 0;"
-            /></a>
-          </div>
-          <div class="column">
-            <a
-              href="https://internetretailing.net/industry/industry/internet-retailing-2011-interview-richard-weaver-majestic-wine-8277"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/internet-retailing.png"
-                width="250"
-                alt="Internet Retailing"
-            /></a>
-          </div>
-          <div class="column">
-            <a
-              href="https://www.essentialretail.com/big-interviews/524bd4e0b90a8-big-interview-majestic-wine-ecommerce-director-richard-weaver/"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/essential-retail.png"
-                width="250"
-                alt="Essential Retail"
-                style="margin:13px 0;"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="container has-text-centered">
-        <h2 class="title is-size-3 is-uppercase">Awards</h2>
-        <div class="columns is-multiline">
-          <div class="column">
-            <a
-              href="https://www.iwcmerchantawards.com/uk/merchant-award-results-2018.html"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/iwc-2018.jpg"
-                alt="IWC High Street Chain of the Year 2018"
-                width="76"
-              /><br /><abbr title="International Wine Challenge">IWC</abbr> High
-              Street Chain of the Year 2018</a
-            >
-          </div>
-          <div class="column">
-            <a
-              href="https://drinksretailingawards.co.uk/thedrinksretailingawards2020/en/page/previous-winners"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/dra-2018.png"
-                alt="Drinks Retailing Awards"
-                width="80"
-              /><br />Drinks Retailing Awards Buying Team of the Year 2018</a
-            >
-          </div>
-          <div class="column">
-            <a
-              href="https://www.thedrinksbusiness.com/2018/05/the-drinks-business-awards-2018-the-winners/9/"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/db-2018.png"
-                alt="Drinks Business Awards"
-                width="100"
-                style="margin:10px 0;"
-              /><br />Drinks Business Buying Team of the Year 2018</a
-            >
-          </div>
-          <div class="column">
-            <a
-              href="https://awards.retail-week.com/winners-2013"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/retail-week.svg"
-                width="250"
-                alt="Retail Week"
-                style="margin:29px 0;"
-              /><br />Retail Week Customer Service Initiative of the Year
-              2013</a
-            >
-          </div>
-          <div class="column">
-            <a
-              href="https://econsultancy.com/econsultancy-announces-innovation-awards-2012-winners/"
-              target="_blank"
-              rel="noopener"
-              ><img
-                src="~assets/img/home/econsultancy.png"
-                width="250"
-                alt="Econsultancy"
-                style="margin:33px 0"
-              /><br />Econsultancy Innovation in Multichannel Marketing 2012</a
+            <nuxt-link class="button is-primary" to="/why-me/bespoke-data"
+              >Read more</nuxt-link
             >
           </div>
         </div>
       </div>
     </section>
+    <InThePress></InThePress>
+    <Awards></Awards>
     <a id="contact"></a>
     <section class="section">
       <div class="container">
@@ -269,7 +151,7 @@
           Get in touch
         </h2>
         <div class="columns">
-          <div class="column is-6">
+          <div class="column is-3">
             <p class="subtitle">
               Call, email, or use this form to send me a message. Either way,
               I'll be back to you before you know it.
@@ -305,7 +187,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-5 is-offset-1">
+          <div class="column is-8 is-offset-1">
             <form
               name="contact"
               method="POST"
@@ -323,8 +205,8 @@
                   />
                 </div>
               </div>
-              <div class="field">
-                <div class="control">
+              <div class="field is-grouped">
+                <div class="control is-expanded">
                   <input
                     class="input"
                     type="text"
@@ -336,9 +218,7 @@
                     maxlength="64"
                   />
                 </div>
-              </div>
-              <div class="field">
-                <div class="control">
+                <div class="control is-expanded">
                   <input
                     class="input"
                     type="text"
@@ -349,8 +229,8 @@
                   />
                 </div>
               </div>
-              <div class="field">
-                <div class="control">
+              <div class="field is-grouped">
+                <div class="control is-expanded">
                   <input
                     class="input"
                     type="email"
@@ -361,9 +241,7 @@
                     maxlength="64"
                   />
                 </div>
-              </div>
-              <div class="field">
-                <div class="control">
+                <div class="control is-expanded">
                   <input
                     class="input"
                     type="text"
@@ -389,9 +267,9 @@
                 </div>
               </div>
               <div class="field">
-                <div class="control">
-                  <button class="button is-primary is-fullwidth" type="submit">
-                    Send
+                <div class="control has-text-centered">
+                  <button class="button is-primary" type="submit">
+                    Send Message
                   </button>
                 </div>
               </div>
@@ -404,11 +282,17 @@
 </template>
 
 <script>
+import Awards from '~/components/awards'
+import InThePress from '~/components/in-the-press'
 export default {
   name: 'HomePage',
   head: {
     title:
       'Retail, Ecommerce & Brand Consultancy for the Drinks Trade: DrinkSight'
+  },
+  components: {
+    Awards,
+    InThePress
   }
 }
 </script>

@@ -93,7 +93,7 @@ export default {
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    // 'nuxt-buefy',
+    'nuxt-buefy',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/eslint-module',
