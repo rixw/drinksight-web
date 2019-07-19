@@ -4,6 +4,7 @@ export const state = () => ({
 
 export const mutations = {
   toggle(state) {
+    console.log('Toggling active state!')
     state.active = !state.active
   }
 }
