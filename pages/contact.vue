@@ -62,7 +62,10 @@
             <div class="media-content">
               <div class="content is-size-4">
                 <p>
-                  <a href="https://twitter.com/drinksight" target="_blank"
+                  <a
+                    href="https://twitter.com/drinksight"
+                    target="_blank"
+                    rel="noopener"
                     >@drinksight</a
                   >
                 </p>
@@ -81,6 +84,7 @@
                   <a
                     href="https://www.linkedin.com/in/richard-weaver-uk/"
                     target="_blank"
+                    rel="noopener"
                     >Richard Weaver</a
                   >
                 </p>

@@ -17,6 +17,7 @@
         through third parties such as
         <a
           target="_blank"
+          rel="noopener"
           href="https://www.amazon.co.uk/?&_encoding=UTF8&tag=drinksight-21&linkCode=ur2&linkId=1c1686ba4080d9cb26cba5681572c91b&camp=1634&creative=6738"
           >Amazon</a
         ><img
@@ -84,12 +85,15 @@
       </p>
       <p>
         Indeed, I built the website you are reading now myself (using
-        <a href="https://vuejs.org" target="_blank">Vue.js</a>,
-        <a href="https://nuxtjs.org" target="_blank">Nuxt</a>,
-        <a href="https://bulma.io/" target="_blank">Bulma</a> and
-        <a href="https://buefy.org/" target="_blank">Buefy</a>). You can even
-        browse the source code in
-        <a href="https://github.com/rixw/drinksight-web" target="_blank"
+        <a href="https://vuejs.org" rel="noopener">Vue.js</a>,
+        <a href="https://nuxtjs.org" target="_blank" rel="noopener">Nuxt</a>,
+        <a href="https://bulma.io/" target="_blank" rel="noopener">Bulma</a> and
+        <a href="https://buefy.org/" target="_blank" rel="noopener">Buefy</a>).
+        You can even browse the source code in
+        <a
+          href="https://github.com/rixw/drinksight-web"
+          target="_blank"
+          rel="noopener"
           >GitHub</a
         >.
       </p>

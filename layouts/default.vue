@@ -65,6 +65,7 @@
               href="https://twitter.com/drinksight"
               class="icon is-large has-text-twitter"
               target="_blank"
+              rel="noopener"
               aria-label="DrinkSight on Twitter"
               ><i class="fab fa-3x fa-twitter"></i
             ></a>
@@ -72,6 +73,7 @@
               href="https://www.linkedin.com/in/richard-weaver-uk/"
               class="icon is-large has-text-linkedin"
               target="_blank"
+              rel="noopener"
               aria-label="DrinkSight on LinkedIn"
               ><i class="fab fa-3x fa-linkedin"></i
             ></a>
@@ -79,6 +81,7 @@
               href="https://github.com/rixw"
               class="icon is-large has-text-github"
               target="_blank"
+              rel="noopener"
               aria-label="DrinkSight on GitHub"
               ><i class="fab fa-3x fa-github"></i
             ></a>

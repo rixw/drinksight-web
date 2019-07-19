@@ -5,14 +5,14 @@
         <div class="column is-8 content">
           <slot></slot>
           <p v-if="contactLink">
-            <nuxt-link to="/contact" class="button is-primary"
+            <nuxt-link to="/contact" class="button"
               >Get in touch for more details</nuxt-link
             >
           </p>
         </div>
         <div class="column is-offset-1 is-3">
           <b-menu>
-            <b-menu-list label="Menu">
+            <b-menu-list label="Menu" class="has-text-primary">
               <b-menu-item
                 v-for="item in menu"
                 :key="item.route"

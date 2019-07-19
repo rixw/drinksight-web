@@ -22,10 +22,17 @@
         customers. For me, the most exciting digital models break from
         traditional retail and build the experience around the individual. For
         example, in the menswear market, the likes of
-        <a href="https://www.stitchfix.com/" target="_blank">StitchFix</a>,
-        <a href="https://www.thread.com/" target="_blank">Thread</a> and
-        <a href="https://www.indochino.com/" target="_blank">Indochino</a> are
-        redefining how to merchandise apparel.
+        <a href="https://www.stitchfix.com/" target="_blank" rel="noopener"
+          >StitchFix</a
+        >,
+        <a href="https://www.thread.com/" target="_blank" rel="noopener"
+          >Thread</a
+        >
+        and
+        <a href="https://www.indochino.com/" target="_blank" rel="noopener"
+          >Indochino</a
+        >
+        are redefining how to merchandise apparel.
       </p>
       <h3>Channel Experience</h3>
       <p>
@@ -58,26 +65,35 @@
       <p>
         My <nuxt-link to="/why-me/bespoke-data">web scraping app</nuxt-link> is
         built using custom actors on the
-        <a href="https://vuejs.org" target="_blank">Apify</a> platform, feeding
-        into an
+        <a href="https://vuejs.org" target="_blank" rel="noopener">Apify</a>
+        platform, feeding into an
         <abbr title="Application Programming Interface">API</abbr> written in
         <a
           href="https://docs.microsoft.com/en-us/dotnet/csharp/"
           target="_blank"
+          rel="noopener"
           >C#</a
         >
         and using
-        <a href="https://dotnet.microsoft.com/apps/aspnet" target="_blank"
+        <a
+          href="https://dotnet.microsoft.com/apps/aspnet"
+          target="_blank"
+          rel="noopener"
           >ASP.NET Core 2.1</a
         >. The website you are reading now has been built using a modern
         open-source technology stack incorporating
-        <a href="https://vuejs.org" target="_blank">Vue.js</a>,
-        <a href="https://nuxtjs.org" target="_blank">Nuxt</a>,
-        <a href="https://bulma.io/" target="_blank">Bulma</a> and
-        <a href="https://buefy.org/" target="_blank">Buefy</a>. It's hosted on
-        <a href="https://www.netlify.com" target="_blank">Netlify</a>. You can
-        browse the source code to see how it is built on
-        <a href="https://github.com/rixw/drinksight-web" target="_blank"
+        <a href="https://vuejs.org" target="_blank" rel="noopener">Vue.js</a>,
+        <a href="https://nuxtjs.org" target="_blank" rel="noopener">Nuxt</a>,
+        <a href="https://bulma.io/" target="_blank" rel="noopener">Bulma</a> and
+        <a href="https://buefy.org/" target="_blank" rel="noopener">Buefy</a>.
+        It's hosted on
+        <a href="https://www.netlify.com" target="_blank" rel="noopener"
+          >Netlify</a
+        >. You can browse the source code to see how it is built on
+        <a
+          href="https://github.com/rixw/drinksight-web"
+          target="_blank"
+          rel="noopener"
           >GitHub</a
         >.
       </p>
