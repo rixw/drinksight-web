@@ -4,7 +4,7 @@ This is the github repository for the https://drinksight.com website.
 
 ## Why store your website in a public repository?
 
-The website is (currently) a single page. I'll grow it in time, but for now I wanted to demonstrate the technicals that sit behind the site.
+Simple: I wanted to demonstrate the technicals that sit behind the site. There's nothing really secret here: the source code builds a static, public website after all.
 
 ## The technology stack
 
