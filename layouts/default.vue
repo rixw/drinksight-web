@@ -15,8 +15,8 @@
             aria-label="menu"
             aria-expanded="false"
             data-target="navMenu"
-            :class="{ 'is-active': isActive }"
-            @click="isActive = !isActive"
+            :class="{ 'is-active': menuActive }"
+            @click="toggle"
             ><span aria-hidden="true"></span><span aria-hidden="true"></span
             ><span aria-hidden="true"></span
           ></a>
@@ -24,7 +24,7 @@
         <div
           id="navMenu"
           class="navbar-menu"
-          :class="{ 'is-active': isActive }"
+          :class="{ 'is-active': menuActive }"
         >
           <div class="navbar-end">
             <nuxt-link to="/how-i-help" class="navbar-item"
@@ -119,7 +119,18 @@
   </div>
 </template>
 <script>
+import { mapMutations } from 'vuex'
 export default {
+  computed: {
+    menuActive() {
+      return this.$store.state.menu.active
+    }
+  },
+  methods: {
+    ...mapMutations({
+      toggle: 'menu/toggle'
+    })
+  },
   head() {
     return {
       link: [
@@ -128,11 +139,6 @@ export default {
           href: 'https://drinksight.com' + this.$route.path
         }
       ]
-    }
-  },
-  data() {
-    return {
-      isActive: false
     }
   }
 }
