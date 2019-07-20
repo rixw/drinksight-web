@@ -187,7 +187,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="column is-8 is-offset-1">
+          <div class="column is-8 is-offset-1">
             <form
               name="contact"
               method="POST"
@@ -195,7 +195,7 @@
               data-netlify="true"
               netlify-honeypot="honeypot"
             >
-              <div class="field is-hidden">
+              <!-- <div class="field is-hidden">
                 <div class="control is-hidden">
                   <input
                     class="input"
@@ -272,9 +272,9 @@
                     Send Message
                   </button>
                 </div>
-              </div>
+              </div> -->
             </form>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>
