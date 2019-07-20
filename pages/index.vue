@@ -196,7 +196,7 @@
                     type="text"
                     placeholder="Name"
                     aria-label="Name"
-                    name="name"
+                    name="contact"
                     required
                     minlength="5"
                     maxlength="64"
