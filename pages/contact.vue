@@ -102,17 +102,14 @@
           method="POST"
           action="/thanks"
           data-netlify="true"
-          netlify-honeypot="honeypot"
+          data-netlify-honeypot="bot-field"
         >
-          <div class="field is-hidden">
-            <div class="control is-hidden">
-              <input
-                class="input"
-                type="text"
-                aria-label="Don’t fill this out if you're human"
-                name="honeypot"
-              />
-            </div>
+          <input type="hidden" name="form-name" value="contact" />
+          <div class="is-hidden">
+            <label
+              >Don't fill this in if you're human...
+              <input type="text" name="bot-field"
+            /></label>
           </div>
           <div class="field is-grouped">
             <div class="control is-expanded">
