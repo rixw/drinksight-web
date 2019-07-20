@@ -193,7 +193,15 @@
               method="POST"
               action="/thanks"
               data-netlify="true"
+              data-netlify-honeypot="bot-field"
             >
+              <input type="hidden" name="form-name" value="home-contact" />
+              <div class="is-hidden">
+                <label
+                  >Don't fill this in if you're human...
+                  <input type="text" name="bot-field"
+                /></label>
+              </div>
               <div>
                 <div class="field is-grouped">
                   <div class="control is-expanded">
