@@ -27,17 +27,19 @@
           :class="{ 'is-active': menuActive }"
         >
           <div class="navbar-end">
-            <nuxt-link to="/how-i-help" class="navbar-item"
+            <nuxt-link to="/how-i-help" class="navbar-item" @click="toggle"
               >How I Help</nuxt-link
             >
-            <nuxt-link to="/why-me" class="navbar-item">Why Me?</nuxt-link>
-            <a class="navbar-item" href="tel:+44--20-3603-3643"
+            <nuxt-link to="/why-me" class="navbar-item" @click="toggle"
+              >Why Me?</nuxt-link
+            >
+            <a class="navbar-item" href="tel:+44--20-3603-3643" @click="toggle"
               >020 3603 3643</a
             >
           </div>
           <div>
             <div class="navbar-item">
-              <nuxt-link to="/contact" class="button is-primary"
+              <nuxt-link to="/contact" class="button is-primary" @click="toggle"
                 >Get in touch</nuxt-link
               >
             </div>
