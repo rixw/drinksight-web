@@ -193,14 +193,7 @@
               method="POST"
               action="/thanks"
               data-netlify="true"
-              netlify-honeypot="honeypot-field"
             >
-              <input
-                class="input is-hidden"
-                type="text"
-                aria-label="Don’t fill this out if you're human"
-                name="honeypot-field"
-              />
               <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
