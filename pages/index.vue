@@ -218,7 +218,7 @@
                   />
                 </div>
               </div>
-              <!-- <div class="field is-grouped">
+              <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
                     class="input"
@@ -261,7 +261,7 @@
                     Send Message
                   </button>
                 </div>
-              </div> -->
+              </div>
             </form>
           </div>
         </div>
