@@ -95,11 +95,11 @@
         </div>
       </div>
     </footer>
-    <script
+    <!-- <script
       src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
       data-cfasync="false"
-    ></script>
-    <script>
+    ></script> -->
+    <!-- <script>
       window.cookieconsent.initialise({
         palette: {
           popup: {
@@ -115,7 +115,7 @@
             'DrinkSight.com uses cookies to ensure you get the best experience.'
         }
       })
-    </script>
+    </script> -->
   </div>
 </template>
 <script>
