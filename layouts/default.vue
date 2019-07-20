@@ -1,5 +1,50 @@
 <template>
   <div>
+    <nav
+      class="navbar is-fixed-top is-light"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container">
+        <div class="navbar-brand is-active">
+          <a class="navbar-item" href="/">
+            <img src="~assets/drinksight.svg" alt="DrinkSight" width="218"/></a
+          ><a
+            class="navbar-burger"
+            role="button"
+            aria-label="menu"
+            :aria-expanded="menuActive"
+            data-target="navMenu"
+            :class="{ 'is-active': menuActive }"
+            @click="toggle"
+            ><span aria-hidden="true"></span><span aria-hidden="true"></span
+            ><span aria-hidden="true"></span
+          ></a>
+        </div>
+        <div
+          id="navMenu"
+          class="navbar-menu"
+          :class="{ 'is-active': menuActive }"
+        >
+          <div class="navbar-end">
+            <nuxt-link to="/how-i-help" class="navbar-item"
+              >How I Help</nuxt-link
+            >
+            <nuxt-link to="/why-me" class="navbar-item">Why Me?</nuxt-link>
+            <a class="navbar-item" href="tel:+44--20-3603-3643"
+              >020 3603 3643</a
+            >
+          </div>
+          <div>
+            <div class="navbar-item">
+              <nuxt-link to="/contact" class="button is-primary"
+                >Get in touch</nuxt-link
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
     <nuxt />
     <footer class="footer">
       <div class="container">

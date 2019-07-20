@@ -145,7 +145,7 @@
     <InThePress></InThePress>
     <Awards></Awards>
     <a id="contact"></a>
-    <section class="section">
+    <!-- <section class="section">
       <div class="container">
         <h2 class="title has-text-centered is-size-3 is-uppercase">
           Get in touch
@@ -277,7 +277,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 
