@@ -205,7 +205,7 @@
                   />
                 </div>
               </div>
-              <div class="field is-grouped">
+              <!-- <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
                     class="input"
@@ -229,7 +229,7 @@
                   />
                 </div>
               </div>
-              <!-- <div class="field is-grouped">
+              <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
                     class="input"
