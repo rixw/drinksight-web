@@ -195,17 +195,13 @@
               data-netlify="true"
               netlify-honeypot="honeypot-field"
             >
-              <div class="field is-hidden">
-                <div class="control">
-                  <input
-                    class="input"
-                    type="text"
-                    aria-label="Don’t fill this out if you're human"
-                    name="honeypot-field"
-                  />
-                </div>
-              </div>
-              <!-- <div class="field is-grouped">
+              <input
+                class="input is-hidden"
+                type="text"
+                aria-label="Don’t fill this out if you're human"
+                name="honeypot-field"
+              />
+              <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
                     class="input"
@@ -229,7 +225,7 @@
                   />
                 </div>
               </div>
-              <div class="field is-grouped">
+              <!-- <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
                     class="input"
