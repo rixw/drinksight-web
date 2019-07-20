@@ -189,72 +189,74 @@
           </div>
           <div class="column is-8 is-offset-1">
             <form name="home-contact" method="POST" action="/thanks" netlify>
-              <div class="field is-grouped">
-                <div class="control is-expanded">
-                  <input
-                    class="input"
-                    type="text"
-                    placeholder="Name"
-                    aria-label="Name"
-                    name="contact"
-                    required
-                    minlength="5"
-                    maxlength="64"
-                  />
+              <div>
+                <div class="field is-grouped">
+                  <div class="control is-expanded">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Name"
+                      aria-label="Name"
+                      name="contact"
+                      required
+                      minlength="5"
+                      maxlength="64"
+                    />
+                  </div>
+                  <div class="control is-expanded">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Company"
+                      aria-label="Company"
+                      name="company"
+                      maxlength="64"
+                    />
+                  </div>
                 </div>
-                <div class="control is-expanded">
-                  <input
-                    class="input"
-                    type="text"
-                    placeholder="Company"
-                    aria-label="Company"
-                    name="company"
-                    maxlength="64"
-                  />
+                <div class="field is-grouped">
+                  <div class="control is-expanded">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="Email"
+                      aria-label="Email"
+                      name="email"
+                      required
+                      maxlength="64"
+                    />
+                  </div>
+                  <div class="control is-expanded">
+                    <input
+                      class="input"
+                      type="text"
+                      placeholder="Phone"
+                      aria-label="Phone"
+                      name="phone"
+                      pattern="^\+?[\d\s()]{8,15}$"
+                      maxlength="20"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="field is-grouped">
-                <div class="control is-expanded">
-                  <input
-                    class="input"
-                    type="email"
-                    placeholder="Email"
-                    aria-label="Email"
-                    name="email"
-                    required
-                    maxlength="64"
-                  />
+                <div class="field">
+                  <div class="control">
+                    <textarea
+                      class="textarea"
+                      rows="5"
+                      placeholder="How can I help?"
+                      aria-label="How can I help?"
+                      name="message"
+                      required
+                      minlength="5"
+                    ></textarea>
+                  </div>
                 </div>
-                <div class="control is-expanded">
-                  <input
-                    class="input"
-                    type="text"
-                    placeholder="Phone"
-                    aria-label="Phone"
-                    name="phone"
-                    pattern="^\+?[\d\s()]{8,15}$"
-                    maxlength="20"
-                  />
-                </div>
-              </div>
-              <div class="field">
-                <div class="control">
-                  <textarea
-                    class="textarea"
-                    rows="5"
-                    placeholder="How can I help?"
-                    aria-label="How can I help?"
-                    name="message"
-                    required
-                    minlength="5"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="field">
-                <div class="control has-text-centered">
-                  <button class="button is-primary" type="submit">
-                    Send Message
-                  </button>
+                <div class="field">
+                  <div class="control has-text-centered">
+                    <button class="button is-primary" type="submit">
+                      Send Message
+                    </button>
+                  </div>
                 </div>
               </div>
             </form>
