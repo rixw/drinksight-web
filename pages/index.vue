@@ -188,12 +188,7 @@
             </div>
           </div>
           <div class="column is-8 is-offset-1">
-            <form
-              name="home-contact"
-              method="POST"
-              action="/thanks"
-              data-netlify="true"
-            >
+            <form name="home-contact" method="POST" action="/thanks">
               <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
