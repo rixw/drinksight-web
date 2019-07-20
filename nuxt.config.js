@@ -69,12 +69,12 @@ export default {
         rel: 'mask-icon',
         color: '#ac3b61',
         href: '/safari-pinned-tab.svg'
-      },
-      {
-        rel: 'stylesheet',
-        href:
-          'https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css'
-      }
+      } //,
+      // {
+      //   rel: 'stylesheet',
+      //   href:
+      //     'https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css'
+      // }
     ],
     script: [
       {
