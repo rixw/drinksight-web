@@ -189,13 +189,13 @@
           </div>
           <div class="column is-8 is-offset-1">
             <form
-              name="contact"
+              name="home-contact"
               method="POST"
               action="/thanks"
               data-netlify="true"
               netlify-honeypot="honeypot"
             >
-              <!-- <div class="field is-hidden">
+              <div class="field is-hidden">
                 <div class="control is-hidden">
                   <input
                     class="input"
@@ -205,7 +205,7 @@
                   />
                 </div>
               </div>
-              <div class="field is-grouped">
+              <!-- <div class="field is-grouped">
                 <div class="control is-expanded">
                   <input
                     class="input"
