@@ -118,8 +118,8 @@ export default {
       {
         id: 'UA-143751727-1'
       }
-    ]
-    //['@nuxtjs/google-tag-manager', { id: 'GTM-WM3KNVZ', pageTracking: false }]
+    ],
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-WM3KNVZ' }]
   ],
   /*
    ** Axios module configuration
