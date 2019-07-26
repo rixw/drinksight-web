@@ -51,7 +51,7 @@ export default {
       menu: [
         { route: '/', label: 'Home' },
         {
-          route: '/how-i-help',
+          route: '/how-i-help/',
           label: 'How I Help',
           children: [
             {
@@ -69,7 +69,7 @@ export default {
           ]
         },
         {
-          route: '/why-me',
+          route: '/why-me/',
           label: 'Why Me?',
           children: [
             {
