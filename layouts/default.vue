@@ -128,7 +128,6 @@ import { mapMutations } from 'vuex'
 export default {
   computed: {
     menuActive() {
-      console.log('menuActive = ' + this.$store.state.menu.active)
       return this.$store.state.menu.active
     }
   },
