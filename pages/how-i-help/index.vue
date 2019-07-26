@@ -18,7 +18,7 @@
             and campaigns.
           </p>
           <nuxt-link
-            to="how-i-help/retail-and-ecommerce"
+            to="how-i-help/retail-and-ecommerce/"
             class="button is-primary"
             >Read more</nuxt-link
           >
@@ -32,7 +32,9 @@
             pricing, promotion and marketing activations for the social media
             age.
           </p>
-          <nuxt-link to="how-i-help/brand-development" class="button is-primary"
+          <nuxt-link
+            to="how-i-help/brand-development/"
+            class="button is-primary"
             >Read more</nuxt-link
           >
         </div>
@@ -47,7 +49,7 @@
             advice to retailers and suppliers.
           </p>
           <nuxt-link
-            to="how-i-help/price-intelligence"
+            to="how-i-help/price-intelligence/"
             class="button is-primary"
             >Read more</nuxt-link
           >

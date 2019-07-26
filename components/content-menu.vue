@@ -55,15 +55,15 @@ export default {
           label: 'How I Help',
           children: [
             {
-              route: '/how-i-help/retail-and-ecommerce',
+              route: '/how-i-help/retail-and-ecommerce/',
               label: 'Retail & Ecommerce'
             },
             {
-              route: '/how-i-help/brand-development',
+              route: '/how-i-help/brand-development/',
               label: 'Brand Development'
             },
             {
-              route: '/how-i-help/price-intelligence',
+              route: '/how-i-help/price-intelligence/',
               label: 'Price Intelligence'
             }
           ]
@@ -73,20 +73,20 @@ export default {
           label: 'Why Me?',
           children: [
             {
-              route: '/why-me/drinks-specialism',
+              route: '/why-me/drinks-specialism/',
               label: 'Drinks Specialism'
             },
             {
-              route: '/why-me/digital-first',
+              route: '/why-me/digital-first/',
               label: 'Digital First'
             },
             {
-              route: '/why-me/bespoke-data',
+              route: '/why-me/bespoke-data/',
               label: 'Bespoke Data'
             }
           ]
         },
-        { route: '/contact', label: 'Get In Touch' }
+        { route: '/contact/', label: 'Get In Touch' }
       ],
       currentPath: this.$nuxt.$route.path
     }

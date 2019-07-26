@@ -16,7 +16,7 @@
             retail and B2B on-trade operations, turning over in excess of
             &pound;300m pa.
           </p>
-          <nuxt-link class="button is-primary" to="/why-me/drinks-specialism"
+          <nuxt-link class="button is-primary" to="/why-me/drinks-specialism/"
             >Read more</nuxt-link
           >
         </div>
@@ -31,7 +31,7 @@
             <abbr title="Pay-Per-Click">PPC</abbr>, affiliate, display and
             content.
           </p>
-          <nuxt-link class="button is-primary" to="/why-me/digital-first"
+          <nuxt-link class="button is-primary" to="/why-me/digital-first/"
             >Read more</nuxt-link
           >
         </div>
@@ -44,7 +44,7 @@
             over the top means I can provide highly customised views of product
             and price data.
           </p>
-          <nuxt-link class="button is-primary" to="/why-me/bespoke-data"
+          <nuxt-link class="button is-primary" to="/why-me/bespoke-data/"
             >Read more</nuxt-link
           >
         </div>
