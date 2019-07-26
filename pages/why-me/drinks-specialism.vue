@@ -51,7 +51,7 @@
 
 <script>
 const desc =
-  "After 20 years in the drinks trade, I have a thorough understanding of the wine, beer and spirits retail landscape and an established network of contacts. As Trading Director for the UK's biggest specialist wine merchant, I ran buying and merchandising for the retail and B2B on-trade operations, turning over in excess of £300m pa."
+  'After 20 years in the drinks trade, I have a thorough understanding of the wine, beer and spirits retail landscape and an established network.'
 const title = 'Drinks Specialism: Why Me?: DrinkSight'
 import ContentHeader from '~/components/content-header'
 import ContentMenu from '~/components/content-menu'

@@ -57,7 +57,7 @@
 
 <script>
 const desc =
-  'I have 20 years in the drinks trade at a senior level. As well as my drinks specialism, I am also a digital native, and combine the two to produce BWS-focused bespoke data.'
+  'I have 20 years in the drinks trade at a senior level. I am a digital native, and produce BWS-focused bespoke data.'
 const title = 'Why Me?: DrinkSight'
 import ContentHeader from '~/components/content-header'
 import ContentMenu from '~/components/content-menu'
