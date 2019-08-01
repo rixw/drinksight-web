@@ -70,9 +70,13 @@
       <p>
         Our website uses Google Analytics to analyse activity on the website. It
         does not collect any personally identifiable information about you, but
-        does record your IP address and set cookies on your computer. We don’t
-        use native social media ‘like’ or ‘sharing’ buttons which also build
-        profiles of your internet activity.
+        does record your IP address and set
+        <a href="/cookies/">cookies</a>
+        on your computer. We don’t use native social media ‘like’ or ‘sharing’
+        buttons which also build profiles of your internet activity.
+      </p>
+      <p>
+        <a href="/cookies/">Find out about cookies on our site</a>
       </p>
       <p>
         We collect your email address when you sign up for one of our

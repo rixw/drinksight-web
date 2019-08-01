@@ -69,12 +69,7 @@ export default {
         rel: 'mask-icon',
         color: '#ac3b61',
         href: '/safari-pinned-tab.svg'
-      } //,
-      // {
-      //   rel: 'stylesheet',
-      //   href:
-      //     'https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css'
-      // }
+      }
     ],
     script: [
       {
@@ -84,6 +79,15 @@ export default {
       {
         type: 'momodule',
         src: 'https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js'
+      },
+      {
+        type: 'text/javascript',
+        src:
+          'https://cookie-cdn.cookiepro.com/consent/25769fad-9e6a-4c05-ab9d-fe28c0eb4f21.js'
+      },
+      {
+        type: 'text/javascript',
+        innerHTML: 'function OptanonWrapper(){}'
       }
     ],
     htmlAttrs: { lang: 'en' },

@@ -62,7 +62,8 @@
             </p>
             <p>
               <nuxt-link to="/terms/">Terms of Use</nuxt-link> |
-              <nuxt-link to="/privacy/">Privacy</nuxt-link>
+              <nuxt-link to="/privacy/">Privacy</nuxt-link> |
+              <a href="/cookies/">Cookies</a>
             </p>
           </div>
           <div
@@ -104,27 +105,6 @@
         </div>
       </div>
     </footer>
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
-      data-cfasync="false"
-    ></script> -->
-    <!-- <script>
-      window.cookieconsent.initialise({
-        palette: {
-          popup: {
-            background: '#123c69'
-          },
-          button: {
-            background: '#ac3b61'
-          }
-        },
-        theme: 'edgeless',
-        content: {
-          message:
-            'DrinkSight.com uses cookies to ensure you get the best experience.'
-        }
-      })
-    </script> -->
   </div>
 </template>
 <script>
