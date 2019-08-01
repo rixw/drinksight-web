@@ -103,7 +103,7 @@
 
 <script>
 const desc =
-  'I have over 15 years’ experience in ecommerce and digital marketing. I oversaw the growth of the Majestic Wine online channel from scratch to £40m+ revenue, including multiple site and app builds. I have deep experience across digital marketing channels including email, search, PPC, affiliate, display and content.'
+  'I have over 15 years’ experience in ecommerce and digital marketing, including multiple site and app builds, and channel skills in email, search, PPC, affiliate, display and content.'
 const title = 'Digital First: Why Me?: DrinkSight'
 import ContentHeader from '~/components/content-header'
 import ContentMenu from '~/components/content-menu'
