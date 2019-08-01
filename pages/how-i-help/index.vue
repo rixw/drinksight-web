@@ -66,7 +66,7 @@ const title = 'How I Help: DrinkSight'
 import ContentHeader from '~/components/content-header'
 import ContentMenu from '~/components/content-menu'
 export default {
-  name: 'RetailAndEcommerce',
+  name: 'HowIHelp',
   head: {
     title,
     meta: [

@@ -192,7 +192,7 @@ const title = 'Get In Touch: DrinkSight'
 import ContentHeader from '~/components/content-header'
 import ContentMenu from '~/components/content-menu'
 export default {
-  name: 'RetailAndEcommerce',
+  name: 'Contact',
   head: {
     title,
     meta: [

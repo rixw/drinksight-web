@@ -11,7 +11,7 @@
           </h2>
           <div class="buttons">
             <nuxt-link to="/" class="button is-primary">Home</nuxt-link>
-            <nuxt-link to="/contact" class="button">Get in touch</nuxt-link>
+            <nuxt-link to="/contact/" class="button">Get in touch</nuxt-link>
           </div>
         </div>
       </div>

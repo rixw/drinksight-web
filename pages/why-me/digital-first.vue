@@ -63,7 +63,7 @@
         database design and SQL.
       </p>
       <p>
-        My <nuxt-link to="/why-me/bespoke-data">web scraping app</nuxt-link> is
+        My <nuxt-link to="/why-me/bespoke-data/">web scraping app</nuxt-link> is
         built using custom actors on the
         <a href="https://vuejs.org" target="_blank" rel="noopener">Apify</a>
         platform, feeding into an

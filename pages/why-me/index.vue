@@ -64,7 +64,7 @@ import ContentMenu from '~/components/content-menu'
 import InThePress from '~/components/in-the-press'
 import Awards from '~/components/awards'
 export default {
-  name: 'RetailAndEcommerce',
+  name: 'WhyMe',
   head: {
     title,
     meta: [

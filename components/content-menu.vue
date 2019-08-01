@@ -5,7 +5,7 @@
         <div class="column is-8 content">
           <slot></slot>
           <p v-if="contactLink">
-            <nuxt-link to="/contact" class="button"
+            <nuxt-link to="/contact/" class="button"
               >Get in touch for more details</nuxt-link
             >
           </p>
