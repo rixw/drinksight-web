@@ -60,6 +60,10 @@
               7GU<br /><a href="tel:+44--20-3603-3643">020 3603 3643</a
               ><br />Registered in England 11930916.
             </p>
+            <p>
+              <nuxt-link to="/terms/">Terms of Use</nuxt-link> |
+              <nuxt-link to="/privacy/">Privacy</nuxt-link>
+            </p>
           </div>
           <div
             class="column has-text-centered is-hidden-mobile has-text-centered-mobile"
