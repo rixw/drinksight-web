@@ -125,7 +125,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://drinksight.com' + this.$route.path
+          href: 'https://drinksight.com' + this.$route.path + '/'
         }
       ]
     }
