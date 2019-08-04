@@ -193,6 +193,9 @@ export default {
   sitemap: {
     hostname: 'https://drinksight.com',
     gzip: true,
-    exclude: ['/thanks']
+    exclude: ['/thanks'],
+    filter: function({ routes }) {
+      return routes.map((route) => (route.url = `${route.url}/`))
+    }
   }
 }
