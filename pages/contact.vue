@@ -187,7 +187,7 @@
 
 <script>
 const desc =
-  'Get in touch with Richard Weaver at DrinkSight: email, phone, social or contact form'
+  'Get in touch with DrinkSight: email, phone, social or contact form'
 const title = 'Get In Touch: DrinkSight'
 import ContentHeader from '~/components/content-header'
 import ContentMenu from '~/components/content-menu'

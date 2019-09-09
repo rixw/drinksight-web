@@ -10,11 +10,10 @@
     <ContentMenu>
       <h2>Strategy</h2>
       <p>
-        In my experience as Trading Director for Majestic Wine, I oversaw an
-        overhaul of product strategy that hugely increased the amount of
-        exclusive products. From flagship own brands such as Definition, Parcel
-        Series and Majestic Loves, to a host of tertiary brands created for the
-        range.
+        In my experience as Trading Director for Britain's biggest specialist
+        wine merchant, I oversaw an overhaul of product strategy that hugely
+        increased the amount of exclusive products, from flagship own brandsto a
+        host of tertiary brands created for the range.
       </p>
       <p>
         As a result, I'm well versed in translating target audiences to brand

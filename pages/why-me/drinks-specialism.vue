@@ -23,8 +23,8 @@
         industry among my contacts.
       </p>
       <p>
-        My experience also includes 5 years' running Majestic's
-        <i>en primeur</i> campaigns as well as setting up the national fine wine
+        My experience also includes 5 years' running
+        <i>en primeur</i> campaigns as well as setting up a national fine wine
         distribution operation, giving me a thorough understanding of the fine
         wine market.
       </p>

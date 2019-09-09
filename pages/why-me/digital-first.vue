@@ -3,7 +3,7 @@
     <ContentHeader
       title="Why Me?: Digital First"
       subtitle="I have over 15 years’ experience in ecommerce and digital
-        marketing. I oversaw the growth of the Majestic Wine online channel from
+        marketing. I oversaw the growth of the online channel from
         scratch to £40m+ revenue, including multiple site and app builds. I have
         deep experience across digital marketing channels including email,
         search, PPC, affiliate, display and content."

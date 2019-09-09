@@ -16,14 +16,6 @@
                 experience in the UK drinks trade. I help drinks businesses
                 grow, implement digital transformation, and reach customers in
                 the modern retail environment.
-                <div id="hero-home-signature" class="as-text-white-bis">
-                  <img
-                    src="~assets/signature.png"
-                    alt="Richard Weaver"
-                    class="image"
-                    width="100"
-                  />Richard Weaver
-                </div>
               </h2>
               <div class="buttons">
                 <a class="control button is-light" href="#contact">Contact me</a
@@ -115,10 +107,10 @@
             <h4 class="title is-4">Digital First</h4>
             <p class="block">
               I have over 15 years’ experience in ecommerce and digital
-              marketing. I oversaw the growth of the Majestic Wine online
-              channel from scratch to £40m+ revenue, including multiple site and
-              app builds. I have deep experience across digital marketing
-              channels including email, search,
+              marketing. I oversaw the growth of the online channel from scratch
+              to £40m+ revenue, including multiple site and app builds. I have
+              deep experience across digital marketing channels including email,
+              search,
               <abbr title="Pay-Per-Click">PPC</abbr>, affiliate, display and
               content.
             </p>

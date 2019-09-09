@@ -13,10 +13,10 @@
             <div id="hero-home-signature" class="as-text-white-bis">
               <img
                 src="~assets/signature.png"
-                alt="Richard Weaver"
+                alt="Richard"
                 class="image"
                 width="100"
-              />Richard Weaver
+              />Richard
             </div>
           </h2>
           <div class="buttons">
